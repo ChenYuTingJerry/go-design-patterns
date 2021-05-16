@@ -3,6 +3,7 @@ package builder
 import "testing"
 
 func TestBuilderPattern(t *testing.T) {
+	// TODO We can use singleton here
 	manufacturingDirector := ManufacturingDirector{}
 
 	carBuilder := &CarBuilder{}
